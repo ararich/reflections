@@ -455,9 +455,12 @@ Ship = function () {
     if (KEY_STATUS.space) {
       if (this.delayBeforeBullet <= 0) {
 <<<<<<< HEAD
+<<<<<<< HEAD
         this.delayBeforeBullet = 10;
         this.shoot();
 =======
+=======
+>>>>>>> master
         for (var i = 0; i < this.bullets.length; i++) {
           if (!this.bullets[i].visible) {
             SFX.laser();
